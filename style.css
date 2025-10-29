@@ -1,0 +1,24 @@
+:root {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #0D1B1E;
+    color: #C3DBC5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+li {
+    cursor: pointer;
+}
